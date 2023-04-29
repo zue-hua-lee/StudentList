@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>student list</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+
+    <form id="list">
+      <button type="submit">list all students</button>
+      <div id="output_list"></div>
+    </form><br>
+
+    <form id="search">
+      student ID: <input type="text" name="search_id"><br>
+      <button type="submit">search specific student</button>
+      <div id="output_search"></div>
+    </form><br>
+
+    <form id="add">
+      student ID: <input type="text" name="add_id"><br>
+      student name: <input type="text" name="add_name"><br>
+      <button type="submit">add new student</button>
+      <div id="output_add"></div>
+    </form><br>
+
+    <form id="delete">
+      student ID: <input type="text" name="delete_id"><br>
+      <button type="submit">delete specific student</button>
+      <div id="output_delete"></div>
+    </form>
+
+    <script src="./hw.js"></script>
+  </body>
+
+</html>
